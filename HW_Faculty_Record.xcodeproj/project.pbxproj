@@ -6,11 +6,44 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXContainerItemProxy section */
+		2B0EE8E619C8C4EA00169A55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B0EE8E219C8C4E900169A55 /* FacultyRecord.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2B0EE8D619C8C4E900169A55;
+			remoteInfo = FacultyRecord;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2B0EE8C819C8BB2900169A55 /* FileOperations.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FileOperations.h; sourceTree = "<group>"; };
+		2B0EE8C919C8BFDD00169A55 /* Record.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Record.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
+		2B0EE8CA19C8BFE900169A55 /* Program.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Program.cpp; sourceTree = "<group>"; };
+		2B0EE8CB19C8BFE900169A55 /* Program.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Program.h; sourceTree = "<group>"; };
+		2B0EE8CC19C8C2A000169A55 /* fileoperations.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = fileoperations.cpp; sourceTree = "<group>"; };
+		2B0EE8E219C8C4E900169A55 /* FacultyRecord.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = FacultyRecord.xcodeproj; path = FacultyRecord/FacultyRecord.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
 		2B0EE8C119C8BAD900169A55 = {
 			isa = PBXGroup;
 			children = (
+				2B0EE8E219C8C4E900169A55 /* FacultyRecord.xcodeproj */,
+				2B0EE8C819C8BB2900169A55 /* FileOperations.h */,
+				2B0EE8C919C8BFDD00169A55 /* Record.h */,
+				2B0EE8CA19C8BFE900169A55 /* Program.cpp */,
+				2B0EE8CB19C8BFE900169A55 /* Program.h */,
+				2B0EE8CC19C8C2A000169A55 /* fileoperations.cpp */,
 			);
+			sourceTree = "<group>";
+		};
+		2B0EE8E319C8C4E900169A55 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B0EE8E719C8C4EA00169A55 /* FacultyRecord */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -30,11 +63,27 @@
 			);
 			mainGroup = 2B0EE8C119C8BAD900169A55;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 2B0EE8E319C8C4E900169A55 /* Products */;
+					ProjectRef = 2B0EE8E219C8C4E900169A55 /* FacultyRecord.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		2B0EE8E719C8C4EA00169A55 /* FacultyRecord */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = FacultyRecord;
+			remoteRef = 2B0EE8E619C8C4EA00169A55 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin XCBuildConfiguration section */
 		2B0EE8C619C8BAD900169A55 /* Debug */ = {
